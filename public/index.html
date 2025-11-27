@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>AI 운동 루틴 생성기</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>AI 운동 루틴 생성기</h1>
+
+  <label>운동 목표</label>
+  <input id="goal" placeholder="예: 체지방 감량">
+
+  <label>운동 레벨</label>
+  <input id="level" placeholder="예: 초급 / 중급 / 상급">
+
+  <label>기간 (주 단위)</label>
+  <input id="weeks" type="number" value="4">
+
+  <label>사용 가능한 장비</label>
+  <input id="equipment" placeholder="예: 덤벨, 매트">
+
+  <button id="generateBtn">루틴 생성하기</button>
+
+  <pre id="result"></pre>
+
+  <!-- 🔥 핵심: JS 연결 (이거 없으면 클릭이 절대 작동 안 함) -->
+  <script src="app.js"></script>
+</body>
+</html>

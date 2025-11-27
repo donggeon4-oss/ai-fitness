@@ -1,0 +1,14 @@
+{
+  "name": "ai-fitness-app",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "latest",
+    "cors": "latest",
+    "openai": "latest"
+  }
+}
